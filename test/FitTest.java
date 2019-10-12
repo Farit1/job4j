@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class FitTest {
        @Test
+       // test
        public void manWeight() {
            double in = 110;
            double expected = 11.5;
