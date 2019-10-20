@@ -10,22 +10,19 @@ public class MaxTest {
         int result = Max.max(1,2);
         assertThat(result, is(2));
     }
-
     @Test
     public void whenFirstMax() {
-        int result2 = Max.Firstmax(4,1);
-        assertThat(result2, is(4));
+        int result = Max.max(6,1);
+        assertThat(result, is(6));
     }
-
     @Test
     public void whenSecondMax() {
-        int result = Max.Secondmax(1,7);
-        assertThat(result, is(7));
+        int result = Max.max(2,5);
+        assertThat(result, is(5));
     }
-
     @Test
     public void whenSame() {
-        int result = Max.same(8,8);
-        assertThat(result, is(8));
+        int result = Max.max(3,3);
+        assertThat(result, is(3));
     }
 }
