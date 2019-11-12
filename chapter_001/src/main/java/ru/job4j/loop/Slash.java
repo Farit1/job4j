@@ -13,15 +13,17 @@ public class Slash {
     public static void draw(int size) {
         for (int row = 0; row < size; row++) {
             for (int cell = 0; cell < size; cell++) {
-                boolean left = (row == cell) ? true:false; // добавить условие, по которому нужно определить ставить ли символ или нет.
+                boolean left = (row == cell); // добавить условие, по которому нужно определить ставить ли символ или нет.
                 boolean right = (cell == size - row - 1) ? true:false; // добавить условие, что нужно ставить элемент в правый угол.
-                if (left) {
+                String a = (left) ? "0":(right) ? "0":" ";
+                System.out.print(a);
+                /*if (left) {
                     System.out.print("0");
                 } else if (right) {
                     System.out.print("0");
                 } else {
                     System.out.print(" ");
-                }
+                }*/
             }
             System.out.println();
         }
