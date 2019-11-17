@@ -1,5 +1,5 @@
 package ru.job4j.array;
-/***
+/****
  *  ArrayCharTest
  *  @author Farit Shaikhytdinov (farit84@yandex.ru)
  **/
