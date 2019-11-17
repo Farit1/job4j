@@ -1,8 +1,8 @@
 package ru.job4j.array;
-/**
+/****
  * CheckTest
  * @author Farit Shaikhytdinov (farit84@yandex.ru)
- */
+ ***/
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
