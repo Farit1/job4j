@@ -13,11 +13,18 @@ public class EndsWith {
     public static boolean endsWith(char[] word, char[] post) {
         boolean result = true;
         // проверить. что массив word имеет последние элементы одинаковые с post
-        for (int i = word.length-1; i >= word.length-post.length; i--) {
-            if (word[i]!=post[i-post.length-1]) {
-                result = false;
-                break;
+        int j = post.length-1;
+        if (post.length<word.length) {
+            for (int i = word.length-1; (i >= 0) & (j > 0); i--) {
+                if (word[i]!=post[j]) {
+                    result = false;
+                    break;
+                }
+                j--;
             }
+        }
+        else {
+            result = false;
         }
         return result;
     }

@@ -34,4 +34,18 @@ public class EndsWithTest {
         boolean result = EndsWith.endsWith(word, post);
         assertThat(result, is(false));
     }
+    @Test
+    /**
+     * Method whenNotStartWithPrefixpostLongThenFalse -
+     * выполняет тестирование метода endsWith,
+     * который выполняет проверку массива,
+     * где последние элементы массива word НЕсовпадают с элементами массива post.
+     */
+    public void whenNotStartWithPrefixpostLongThenFalse() {
+        char[] word = {'H', 'e', 'l', 'l', 'o'};
+        char[] post = {'H','H', 'e', 'l', 'l', 'o'};
+        boolean result = EndsWith.endsWith(word, post);
+        assertThat(result, is(false));
+    }
+
 }
