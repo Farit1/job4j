@@ -1,8 +1,8 @@
 package ru.job4j.array;
-/**
+/***
  *  EndsWithTest
  *  @author Farit Shaikhytdinov (farit84@yandex.ru)
- **/
+ ***/
 import org.junit.Test;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
