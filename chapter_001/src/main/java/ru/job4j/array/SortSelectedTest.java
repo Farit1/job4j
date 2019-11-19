@@ -1,6 +1,6 @@
 package ru.job4j.array;
 /**
- * FindLoopTest
+ * SortSelectedTest
  * @author Farit Shaikhytdinov (farit84@yandex.ru)
  */
 import org.junit.Test;
