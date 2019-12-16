@@ -17,6 +17,6 @@ public class Car2 {
     }
 
     public void gasInfo() {
-        System.out.println("I can drive " + this.volume + " kilometers.");
+        System.out.println("I can drive " +this.volume + " kilometers.");
     }
 }

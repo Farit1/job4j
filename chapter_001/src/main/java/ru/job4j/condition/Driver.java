@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 public class Driver {
-    private char license = 'N';
+    private char license ='N';
 
     public void passExamOn(char category) { // Присваивает в переменную license категорию A,B или C
         this.license = category;

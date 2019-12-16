@@ -5,14 +5,14 @@ public class Converter {
         return value / 70;
     }
     public static int euroToRuble(int value) {
-        return value*70;
+        return value * 70;
     }
 
     public static int rubleToDollar(int value) {
         return value / 60;
     }
     public static int dollarToRuble(int value) {
-        return value*60;
+        return value * 60;
     }
     public static void main(String[] args) {
    /*     int euro = rubleToEuro(140);
@@ -28,9 +28,7 @@ public class Converter {
         int in = 140;
         int excepted = 2;
         int out = rubleToEuro(in);
-        boolean passed = excepted == out;
+        boolean passed =excepted == out;
         System.out.println("140 rubles are 2. Test result : " + passed);
-
     }
-
 }

@@ -4,7 +4,9 @@ public class Counter {
     public static int add(int start, int finish) {
         int sum = 0;
         for (int i = start; i <= finish; i++) {
-           if (i % 2 == 0) {sum+=i;}
+           if (i %2 == 0) {
+               sum+ = i;
+           }
          //     i % 2 == 0 ? sum=+i : sum=+0;
         }
         return sum;
