@@ -12,7 +12,7 @@ public class Car2 {
     }
 
     public boolean canDrive() {
-        boolean result = this.volume > 0;
+        boolean result=this.volume > 0;
         return result;
     }
 

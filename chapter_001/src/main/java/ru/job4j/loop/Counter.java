@@ -7,7 +7,7 @@ public class Counter {
            if (i %2 == 0) {
                sum+ = i;
            }
-         //     i % 2 == 0 ? sum=+i : sum=+0;
+         //     i % 2 == 0 ? sum = +i : sum = +0;
         }
         return sum;
     }
