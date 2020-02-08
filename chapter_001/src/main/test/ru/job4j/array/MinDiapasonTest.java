@@ -14,7 +14,7 @@ public class MinDiapasonTest {
      * в диапазоне от 1 по 3
      */
     public void whenFirstMin() {
-        assertThat(MinDiapason.findMin(new int[] {-1, 0, 5, 10},1, 3),is(0));
+        assertThat(MinDiapason.findMin(new int[] {-1, 0, 5, 10}, 1, 3), is(0));
     }
     /**
      * Method whenLastMin - Метод выполняет тестирование метода findMin,
@@ -23,7 +23,7 @@ public class MinDiapasonTest {
      */
     @Test
     public void whenLastMin() {
-        assertThat(MinDiapason.findMin(new int[] {10, 5, 3, 1},1, 3),is(3));
+        assertThat(MinDiapason.findMin(new int[] {10, 5, 3, 1}, 1, 3), is(3));
     }
 
     /**
@@ -33,6 +33,6 @@ public class MinDiapasonTest {
      */
     @Test
     public void whenMiddleMin() {
-        assertThat(MinDiapason.findMin(new int[] {10, 2, 5, 1},0, 2),is(2));
+        assertThat(MinDiapason.findMin(new int[] {10, 2, 5, 1}, 0, 2), is(2));
     }
 }

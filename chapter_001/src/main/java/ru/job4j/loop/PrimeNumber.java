@@ -18,7 +18,7 @@ public class PrimeNumber {
             */
             // Проверка простого числа посредством обращения к классу CheckPrimeNumber
             prime = cpn.check(i);
-            if (prime == true) {
+            if (prime) {
                 count++;
             }
         }

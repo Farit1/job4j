@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 import org.junit.Test;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class MultiMaxTest {
@@ -21,7 +21,7 @@ public class MultiMaxTest {
     @Test
     public void whenThridMax() {
         MultiMax check = new MultiMax();
-        int result = check.max(1, 4, 9);// Тестиирование метода, когда максимальное в переменной thrid
+        int result = check.max(1, 4, 9); // Тестиирование метода, когда максимальное в переменной thrid
         assertThat(result, is(9));
     }
 }

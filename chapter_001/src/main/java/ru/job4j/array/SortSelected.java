@@ -10,12 +10,12 @@ public class SortSelected {
      * @return data - отсортированный массив
      */
     public static int[] sort(int[] data) {
-        for (int i = 0; i< data.length; i++){
+        for (int i = 0; i < data.length; i++) {
             int min = MinDiapason.findMin(data, i, data.length);
             FindLoop find = new FindLoop();
             int index = find.indexOf(data, min, 0, data.length);
             data[index] = data[i];
-            data[i]=min;
+            data[i] = min;
         }
         return data;
     }

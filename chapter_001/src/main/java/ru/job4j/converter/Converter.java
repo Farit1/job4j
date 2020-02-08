@@ -28,7 +28,7 @@ public class Converter {
         int in = 140;
         int excepted = 2;
         int out = rubleToEuro(in);
-        boolean passed =excepted == out;
+        boolean passed = excepted == out;
         System.out.println("140 rubles are 2. Test result : " + passed);
     }
 }

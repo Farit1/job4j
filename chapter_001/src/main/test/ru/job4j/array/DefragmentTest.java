@@ -32,12 +32,12 @@ public class DefragmentTest {
 
     @Test
     /**
-     * Method NullNull - выполняет тестирование метода Defragment, где первые три элемента массива равны null
+     * Method nullNull - выполняет тестирование метода Defragment, где первые три элемента массива равны null
      */
-    public void NullNull() {
-        String[] input = {null, null,null, "I", "wanna", null, null, null, "be", null, "compressed", null};
+    public void nullNull() {
+        String[] input = {null, null, null, "I", "wanna", null, null, null, "be", null, "compressed", null};
         String[] compressed = Defragment.compress(input);
-        String[] expected = {"I", "wanna", "be", "compressed", null, null, null, null, null,null, null, null};
+        String[] expected = {"I", "wanna", "be", "compressed", null, null, null, null, null, null, null, null};
         assertThat(compressed, is(expected));
     }
 }

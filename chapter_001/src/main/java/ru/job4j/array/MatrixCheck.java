@@ -23,7 +23,7 @@ public class MatrixCheck {
                     resultcell = false;
                 }
             }
-            if ((resultrow==true)||(resultcell==true)) {
+            if (resultrow || resultcell) {
                 row = board.length;
                 result = true;
                 break;

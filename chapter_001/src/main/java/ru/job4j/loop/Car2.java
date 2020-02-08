@@ -12,11 +12,11 @@ public class Car2 {
     }
 
     public boolean canDrive() {
-        boolean result=this.volume > 0;
+        boolean result = this.volume > 0;
         return result;
     }
 
     public void gasInfo() {
-        System.out.println("I can drive " +this.volume + " kilometers.");
+        System.out.println("I can drive " + this.volume + " kilometers.");
     }
 }

@@ -17,7 +17,7 @@ public class SquareTest {
         int bound = 3;
         Square square = new Square();
         int[] rst = square.calculate(bound);
-        int[] except = new int[] {1,4,9};
+        int[] except = new int[] {1, 4, 9};
         assertThat(rst, is(except));
     }
 
@@ -29,7 +29,7 @@ public class SquareTest {
         int bound = 4;
         Square square = new Square();
         int[] rst = square.calculate(bound);
-        int[] except = new int[] {1,4,9,16};
+        int[] except = new int[] {1, 4, 9, 16};
         assertThat(rst, is(except));
     }
 
@@ -41,7 +41,7 @@ public class SquareTest {
         int bound = 5;
         Square square = new Square();
         int[] rst = square.calculate(bound);
-        int[] except = new int[] {1,4,9,16,25};
+        int[] except = new int[] {1, 4, 9, 16, 25};
         assertThat(rst, is(except));
     }
 }

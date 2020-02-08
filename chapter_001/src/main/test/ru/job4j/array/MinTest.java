@@ -14,7 +14,7 @@ public class MinTest {
      */
     @Test
     public void whenFirstMin() {
-        assertThat(Min.findMin(new int[] {0, 5, 10}),is(0));
+        assertThat(Min.findMin(new int[] {0, 5, 10}), is(0));
     }
     /**
      * Method whenLastMin - Метод выполняет тестирование метода findMin,
@@ -22,7 +22,7 @@ public class MinTest {
      */
     @Test
     public void whenLastMin() {
-        assertThat(Min.findMin(new int[] {10, 5, 3}),is(3));
+        assertThat(Min.findMin(new int[] {10, 5, 3}), is(3));
     }
     /**
      * Method whenMiddleMin - Метод выполняет тестирование метода findMin.
@@ -30,6 +30,6 @@ public class MinTest {
      */
     @Test
     public void whenMiddleMin() {
-        assertThat(Min.findMin(new int[] {10, 2, 5}),is(2));
+        assertThat(Min.findMin(new int[] {10, 2, 5}), is(2));
     }
 }
